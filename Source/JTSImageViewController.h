@@ -93,6 +93,8 @@ extern CGFloat const JTSImageViewController_DefaultBackgroundBlurRadius;
  */
 - (void)dismiss:(BOOL)animated;
 
+- (void)updateInterfaceWithImage:(UIImage *)image;
+
 @end
 
 ///--------------------------------------------------------------------------------------------------------------------
