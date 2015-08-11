@@ -1969,6 +1969,10 @@ typedef struct {
     return hint;
 }
 
+- (BOOL) isDismissing {
+    return _flags.isDismissing;
+}
+
 @end
 
 
